@@ -5,16 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Github Repo Search</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  
 </head>
 <body>
   <div class="master-container js-master-container">
-    <h1 for=""></h1>
+    <h1 for="search title">Github Repo Search</h1>
     <form class="github-search js-github-search">
+      <label for="github handle input">Input a user:</label><br>
       <input type="text" class="js-github-handle-input">
       <input type="submit" class="submit js-submit">
     </form>
+    <div class="status-message js-status-message">
+
+    </div>
+    <div class="results js-results">
+
+    </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
